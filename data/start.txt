@@ -12,7 +12,7 @@ start
 	clear
 	date 01 01 2400
 	system "Sol"
-	planet "Earth"
+	planet "Luna"
 	account
 		clear
 		credits 500000
