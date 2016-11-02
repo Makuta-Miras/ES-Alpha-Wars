@@ -34,7 +34,7 @@ government "Bounty Hunter"
 
 government "Deep"
 	swizzle 0
-	"player reputation" -1000
+	"player reputation" 1
 
 government "Derelict"
 	swizzle 0
@@ -49,9 +49,6 @@ government "Drak"
 government "Escort"
 	swizzle 5
 	"fine" 0
-
-government "Free Worlds"
-	clear
 
 government "Hai"
 	swizzle 0
@@ -155,12 +152,6 @@ government "Militia"
 	"bribe" .1
 	"friendly hail" "friendly free worlds"
 
-government "Navy Intelligence"
-	clear
-
-government "Navy (Oathkeeper)"
-	clear
-
 government "Neutral"
 	swizzle 0
 	color .84 .61 .37
@@ -173,6 +164,15 @@ government "Neutral"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	raid "pirate raid"
+
+government "Paradise Planets"
+	#insert swizzle and color
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" .1
+		"Pirate" -.3
+	"bribe" 0
+	#insert hails
 
 government "Parrot"
 	swizzle 2
@@ -219,15 +219,6 @@ government "Quarg"
 		"Pirate" -.1
 	"hostile hail" "hostile quarg"
 
-government "Republic"
-	clear
-
-government "Syndicate"
-	clear
-
-government "Syndicate (Extremist)"
-	clear
-
 government "Test Dummy"
 	swizzle 3
 	"player reputation" -1000
@@ -245,3 +236,25 @@ government "Wanderer"
 		"Kor Mereti" -.1
 	"friendly hail" "wanderer untranslated"
 	"hostile hail" "wanderer untranslated"
+
+
+
+#cleared governments
+
+government "Free Worlds"
+	clear
+
+government "Navy Intelligence"
+	clear
+
+government "Navy (Oathkeepers)"
+	clear
+
+government "Republic"
+	clear
+
+government "Syndicate"
+	clear
+
+government "Syndicate (Extremist)"
+	clear
