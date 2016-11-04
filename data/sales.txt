@@ -10,7 +10,6 @@
 
 shipyard "Basic Ships"
 	clear
-	"Shuttle"
 
 shipyard "Tarazed Basics"
 	clear
@@ -66,27 +65,18 @@ shipyard "Luxury Ships"
 
 outfitter "Basic Outfits"
 	clear
-	"Hyperdrive"
-	"Local Map"
-	"Pilot's License"
 
 outfitter "Common Outfits"
 	clear
-	"Hyperdrive"
-	"Local Map"
-	"Pilot's License"
 
 outfitter "Basic Weapons"
 	clear
-	"Local Map"
 
 outfitter "Ammo North"
 	clear
-	"Local Map"
 
 outfitter "Ammo South"
 	clear
-	"Local Map"
 
 outfitter "Deep Sky Basics"
 	clear
@@ -120,13 +110,12 @@ outfitter "Kraz Advanced"
 
 outfitter "Pirate Outfits"
 	clear
-	"Local Map"
 
 outfitter "Stack Core"
 	clear
 
 outfitter "Nuke"
-	"Nuclear Missile"
+	clear
 
 # These are not available on any planet; listing them here is just a convenience
 # to allow them to be all turned on for testing.

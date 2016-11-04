@@ -40,41 +40,9 @@ government "Derelict"
 	swizzle 0
 	"player reputation" 10
 
-government "Drak"
-	swizzle 5
-	color 1 1 1
-	"player reputation" 1
-	"fine" 0
-
 government "Escort"
 	swizzle 5
 	"fine" 0
-
-government "Hai"
-	swizzle 0
-	color .84 .42 .81
-	
-	"player reputation" 0
-	"attitude toward"
-		"Hai (Unfettered)" -.5
-	"bribe" .02
-	"fine" 0
-	"friendly hail" "friendly hai"
-	"hostile hail" "hostile hai"
-
-government "Hai (Unfettered)"
-	swizzle 4
-	color .69 .33 .82
-	
-	"player reputation" -1000
-	"attitude toward"
-		"Hai" -.1
-		"Wanderer" -.1
-		"Pug" -.1
-		"Merchant" -.1
-	"bribe" .02
-	"fine" 0
-	"hostile hail" "hostile unfettered"
 
 government "Independent"
 	swizzle 6
@@ -86,48 +54,6 @@ government "Independent"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	raid clear
-
-government "Korath"
-	swizzle 0
-	color .8 .5 .1
-	language "Korath"
-	
-	"attitude toward"
-		"Kor Mereti" -.1
-		"Kor Sestor" -.1
-	
-	"player reputation" -10
-
-government "Kor Efret"
-	swizzle 4
-	color .49 .33 .69
-	language "Korath"
-	
-	"attitude toward"
-		"Kor Mereti" -.1
-		"Kor Sestor" -.1
-	
-	"player reputation" 1
-
-government "Kor Mereti"
-	swizzle 5
-	color .32 .36 .65
-	language "Korath"
-	
-	"attitude toward"
-		"Kor Sestor" -.1
-	
-	"player reputation" -1000
-
-government "Kor Sestor"
-	swizzle 0
-	color .75 .27 .37
-	language "Korath"
-	
-	"attitude toward"
-		"Kor Mereti" -.1
-	
-	"player reputation" -1000
 
 government "Merchant"
 	swizzle 5
@@ -226,22 +152,32 @@ government "Test Dummy"
 government "Uninhabited"
 	color .3 .3 .3
 
-government "Wanderer"
-	swizzle 2
-	color .70 .91 .12
-	"player reputation" 1
-	language "Wanderer"
-	"attitude toward"
-		"Kor Sestor" -.1
-		"Kor Mereti" -.1
-	"friendly hail" "wanderer untranslated"
-	"hostile hail" "wanderer untranslated"
-
 
 
 #cleared governments
 
+government "Drak"
+	clear
+
 government "Free Worlds"
+	clear
+
+government "Hai"
+	clear
+
+government "Hai (Unfettered)"
+	clear
+
+government "Korath"
+	clear
+
+government "Kor Efret"
+	clear
+
+government "Kor Sestor"
+	clear
+
+government "Kor Mereti"
 	clear
 
 government "Navy Intelligence"
@@ -258,3 +194,7 @@ government "Syndicate"
 
 government "Syndicate (Extremist)"
 	clear
+
+government "Wanderer"
+	clear
+
