@@ -8,6 +8,139 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+shipyard "Ships"
+	#Standard transports
+	#Standard light freighters
+	#Standard heavy freighters
+	#Standard intercepters
+	"Berserker"
+	#Standard light warships
+	#Standard medium warships
+	"Firebird"
+	#Medium warships released through the campaign
+	"Aerie"
+	#Heavy warships released through the campaign
+	"Leviathan"
+	
+
+outfitter "Weapons"
+	#Standard weapons
+	"Energy Blaster"
+	"Blaster Turret"
+	"Anti-Missile Turret"
+	"Plasma Cannon"
+	#Weapons released through the campaign
+	"Quad Blaster Turret"
+	"Heavy Anti-Missile Turret"
+	"Beam Laser"
+	"Laser Turret"
+	"Particle Cannon"
+	#Alpha weapons
+	"Modified Blaster"
+	"Modified Blaster Turret"
+	#Pug weapons
+	"Pug Beam"
+
+outfitter "Secondary Weapons"
+	#Standard weapons
+	"Meteor Missile Launcher"
+	"Sidewinder Missile Launcher"
+	"Javelin Pod"
+	"Torpedo Launcher"
+	"Heavy Rocket Launcher"
+	"Gatling Gun"
+	#Alpha weapons
+	"Modified Gatling Gun"
+
+outfitter "Ammunition"
+	#Standard ammo
+	"Meteor Missile"
+	"Sidewinder Missile"
+	"Javelin"
+	"Torpedo"
+	"Heavy Rocket"
+	"Gatling Gun Ammo"
+	#Alpha ammo
+	"Modified Gatling Gun Ammo"
+
+outfitter "Outfits"
+	#Standard outfits
+	"Deuterium Ramscoop"
+	"Cargo Scanner"
+	"Outfit Scanner"
+	"Interference Plating"
+	"Mass Expansion"
+	"Cargo Expansion"
+	"Bunk Room"
+	"Small Bunk Room"
+	#Outfits unlocked through the campaign
+	"Tritium Ramscoop"
+
+outfitter "Shields"
+	#Standard shields
+	"Tiny Shield Generator"
+	"Small Shield Generator"
+	"Medium Shield Generator"
+	"Large Shield Generator"
+	"Huge Shield Generator"
+	#Alpha shields
+	
+
+outfitter "Cooling"
+	#Standard cooling
+	"Cooling ducts"
+	"Water Coolant System"
+	"Liquid Nitrogen Cooler"
+	"Liquid Helium Cooler"
+	#Alpha cooling
+	
+outfitter "Power"
+	#Standard power
+	"Supercapacitor"
+	"LP036a Battery Pack"
+	"LP072a Battery Pack"
+	"LP144a Battery Pack"
+	"LP288a Battery Pack"
+	"LP576a Battery Pack"
+	"KP-4 Photovoltaic Panel"
+	"KP-4 Photovoltaic Array"
+	"nGVF-AA Fuel Cell"
+	"nGVF-BB Fuel Cell"
+	"nGVF-CC Fuel Cell"
+	"nGVF-DD Fuel Cell"
+	"nGVF-EE Fuel Cell"
+	"RT-I Radiothermal"
+	"S1 Thermionic"
+	"Fission Reactor"
+	"Breeder Reactor"
+	"Fusion Reactor"
+	#Alpha power
+
+outfitter "Engines"
+	#Standard engines
+	"Tiny Ion Thruster"
+	"Small Ion Thruster"
+	"Medium Ion Thruster"
+	"large Ion Thruster"
+	"Huge Ion Thruster"
+	"Tiny Ion Steering"
+	"Small Ion Steering"
+	"Medium Ion Steering"
+	"Large Ion Steering"
+	"Huge Ion Steering"
+	"Tiny Plasma Thruster"
+	"Small Plasma Thruster"
+	"Medium Plasma Thruster"
+	"Large Plasma Thruster"
+	"Huge Plasma Thruster"
+	"Tiny Plasma Steering"
+	"Small Plasma Steering"
+	"Medium Plasma Steering"
+	"Large Plasma Steering"
+	"Huge Plasma Steering"
+	#Alpha engines
+
+# Cleared shipyards and outfitters
 shipyard "Basic Ships"
 	clear
 
